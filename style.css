@@ -1,0 +1,101 @@
+/* July 1st, 2023
+Responsive Travel
+Responsive Travel Makeighlee McGowan*/
+
+header {
+  background-color: #E9E9E9;
+  padding: 40px 25px;
+}
+
+body{
+  background-color: #3f3f3f;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  max-width: 1200px;
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+
+footer{clear: both; text-align: center; padding: 25px;}
+
+img {display:none}
+
+@media screen and (min-width: 568px){
+ 
+  img {display:block}
+  
+
+}
+
+@media screen and (min-width: 900px){
+  
+  img{float: right;}
+
+  .col1, .col2, .col3 {
+  
+    float:left;
+    width:30%;
+    margin-right:5%;
+  }
+  
+
+
+}
+
+@media screen and (min-width: 1200px){
+  
+  .cols {
+    padding: 50px 10px 5px 10px;
+    line-height: 1.5
+  }
+  
+ 
+  .col1, .col2, .col3 {
+  
+    float:left;
+    width:30%;
+    margin-right:5%;
+  }
+  
+  .col3{
+    margin-right: 0%;
+  }
+  .main-content{
+    width: 65%;
+    float: left;
+    margin-right: 5%;
+  }
+
+
+}
+
+.sidebar{
+  width: 30%;
+	float: left;
+}
+.sidebox-1{
+  background-color: beige;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+.sidebox-2{
+  background-color: #A52A2A;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+.clearfix:after { content: ""; display: table;clear: both; }
